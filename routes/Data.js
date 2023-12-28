@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const Schema = require("../schema/Schema");
 const nodemailer = require("nodemailer");
-const bcrypt = require("bcrypt");
 require("dotenv").config();
 
 let transporter = nodemailer.createTransport({
